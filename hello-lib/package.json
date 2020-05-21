@@ -1,0 +1,23 @@
+{
+  "name": "hello-lib",
+  "version": "1.0.0",
+  "description": "hello world standalone es6 library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kawnayeen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.1",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^7.0.2",
+    "mocha": "^7.1.2",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
