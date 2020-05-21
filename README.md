@@ -70,3 +70,21 @@ To run the build task, try following in terminal:-
 ```
 ./build.sh
 ```
+
+Explanation of the example project
+-----------
+
+Example project contain a single html file which inlcude the `hello-lib.js` file and call it's functionality. 
+The following code kind of self-explanatory:-
+```
+<script src="../hello-lib/build/hello-lib.js"></script>
+<script type="text/javascript">
+    window.onload = function () {
+        const contentDiv = document.getElementById('content');
+        contentDiv.innerHTML = '<h2>' + HelloModule.sayHello() + '</h2>';
+    }
+</script>
+```
+
+It looks like following in browser
+![](images/example-project.png)
