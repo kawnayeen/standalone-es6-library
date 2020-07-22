@@ -9,15 +9,15 @@
   "author": "kawnayeen",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/register": "^7.9.0",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
     "babelify": "^10.0.0",
     "browserify": "^16.5.1",
     "chai": "^4.2.0",
     "gulp": "^4.0.2",
     "gulp-mocha": "^7.0.2",
-    "mocha": "^7.1.2",
+    "mocha": "^7.2.0",
     "vinyl-source-stream": "^2.0.0"
   }
 }
